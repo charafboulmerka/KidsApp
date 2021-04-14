@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_alphabet"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:padding="1dp"
+                android:onClick="CardClicked"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/alphabet"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_colors"
+                android:onClick="CardClicked"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:padding="1dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/colors"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_animals"
+                android:onClick="CardClicked"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:padding="1dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/animals"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_fruits"
+                android:onClick="CardClicked"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:padding="1dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/fruit"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_numbers"
+                android:onClick="CardClicked"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:padding="1dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/numbers"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_months"
+                android:onClick="CardClicked"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:padding="1dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/months"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_days"
+                android:onClick="CardClicked"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:padding="1dp"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/days"/>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/card_games"
+                android:layout_width="180dp"
+                android:layout_height="240dp"
+                android:padding="1dp"
+                android:onClick="CardClicked"
+                android:layout_margin="8dp"
+                app:cardCornerRadius="5dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/games"/>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+            <include layout="@layout/banner"/>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

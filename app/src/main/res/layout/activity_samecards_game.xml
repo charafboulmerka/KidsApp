@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/Brown"
+    tools:context=".SamecardsGame">
+
+    <include layout="@layout/header2"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_1"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:onClick="GameTwoSelected"
+                    android:padding="5dp"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_1"
+                        android:visibility="invisible"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/animals_pic_donkey"/>
+
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:padding="1dp"
+                    android:onClick="GameTwoSelected"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/colors"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:onClick="GameTwoSelected"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/colors"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_4"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:padding="5dp"
+                    android:onClick="GameTwoSelected"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_4"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/alphabet"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:padding="1dp"
+                    android:onClick="GameTwoSelected"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_5"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/colors"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:onClick="GameTwoSelected"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_6"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/colors"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_7"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:padding="5dp"
+                    android:onClick="GameTwoSelected"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_7"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/alphabet"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+                    android:onClick="GameTwoSelected"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_8"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/colors"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:layout_margin="8dp"
+                    android:onClick="GameTwoSelected"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_9"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/colors"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_10"
+                    android:layout_width="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:padding="5dp"
+                    android:onClick="GameTwoSelected"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="10dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_10"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/alphabet"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:padding="1dp"
+                    android:layout_weight="1"
+                    android:layout_margin="8dp"
+                    android:onClick="GameTwoSelected"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_11"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/colors"/>
+                </androidx.cardview.widget.CardView>
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/game2_card_12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/game2_card_h"
+                    android:layout_weight="1"
+                    android:padding="1dp"
+                    android:layout_margin="8dp"
+                    android:onClick="GameTwoSelected"
+                    app:cardCornerRadius="5dp">
+
+                    <ImageView
+                        android:id="@+id/game2_img_12"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:visibility="invisible"
+                        android:background="@drawable/colors"/>
+                </androidx.cardview.widget.CardView>
+            </LinearLayout>
+            <include layout="@layout/banner"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
